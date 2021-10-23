@@ -1,6 +1,6 @@
 try {
     // ...
 } catch (SecurityException se) {
-    System.err.println(se);
+    logger.log(Level.SEVERE, se);
     // Recover from exception
 }
